@@ -195,7 +195,7 @@ class _TrimSliderState extends State<TrimSlider> {
   }
 
   double _getTrimPosition() {
-    return _layout.width * widget.controller.trimPosition;
+    return 0;
   }
 
   Duration _getDurationDiff(double left, double width) {
